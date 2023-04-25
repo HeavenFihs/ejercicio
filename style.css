@@ -1,0 +1,38 @@
+html {
+  background-image: url(futbol.jpg);
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  #equipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .equipo {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px #888;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .equipo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .equipo h2 {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .equipo p {
+    margin: 10px;
+    font-size: 1.2em;
+  }
